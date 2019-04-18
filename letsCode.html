@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bring Your Kids To Work</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="text-center" cz-shortcut-listen="true">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand" id="masthead-brand">Lets Code Together!</h3>
+                <button type="button" class="btn btn-light" id="stopBtn" onclick="stop();">STOP!</button>
+                <nav class="nav nav-masthead justify-content-center" id="shake">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="kids.html">Kids Rule</a>
+                    <a class="nav-link active" href="letsCode.html">Lets Code</a>
+                </nav>
+            </div>
+        </header>
+
+        <main role="main" class="inner cover" >
+            <div id="bounce">
+                <h1 class="cover-heading" id="cover-heading">LETS GET CODING!</h1>
+                <p class="lead">Which color should we change this ugly background color to?</p>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chBackcolor('#03ba00');">Green</button>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chBackcolor('#d60000');">Red</button>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chBackcolor('#0069D9');">Blue</button>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chBackcolor('pink');">Pink</button>
+                <hr/>
+                <p class="lead">Now lets change the font!</p>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chFontFam('Georgia, serif');">Georgia</button>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chFontFam('Times New Roman, Times, serif');">Times New Roman</button>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chFontFam('Impact, Charcoal, sans-serif');">Impact</button>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chFontFam('Courier New, Courier, monospace');">Courier New</button>
+                <hr/>
+                <p class="lead">Lets help our website have some fun!</p>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chAnimateTitle('spin 2s 5000');">Spin</button>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chAnimateText('rainbow 5s 5000');">Rainbow!</button>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chAnimateBounce('bounce 5s 5000');">Bounce!</button>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chAnimateShake('shake 1s 5000');">Shake!</button>
+                <button type="button" class="btn btn-light mx-2" id="btnAnimation" onclick="chAnimateGrow('grow 1s 5000');">Grow!</button>
+                <hr />
+                <p class="lead">DANCE PARTY!!</p>
+                <button type="button" class="btn btn-light" onclick="chAnimateDance();">Lets Party!</button>
+            </div>
+        </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p id="grow">Canvas Credit Union. What a <a href="https://www.canvas.org">GREAT</a> place to work!</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
